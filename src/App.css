@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}  
+
+body{
+    background-color: #171e2b;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.App {
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar {
+    flex : 3;
+    border-right: 1px solid #999da5;
+}
+.main{
+    flex: 9;
+}
+.logo{
+    margin-right: 10px;
+}
+.appname{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.upperside{
+    padding: 20px;
+    border-bottom: 1px solid #999da5;
+    height: 70%;
+}
+.uppersideTop{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.addBtn{
+    height: 20px;
+    padding-right: 10px;
+}
+.midBtn{
+    background-color:rgb(66, 162, 210);
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    width: 25rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.query{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #999da5;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    width: 25rem;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    margin : 1rem auto;
+    margin-bottom: 20px;
+}
+.query img{
+    height: 20px;
+    margin-right: 20px;
+}
+
+.lowerside{
+    padding: 20px;
+}
+.list{
+    margin: 0.75em;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.listimg{
+    margin: 1rem;
+    padding-right: 1.5rem;
+}
+
+.list:nth-child(1)>.listimg{
+    margin-right: 0.5rem;
+}
+.list:nth-child(3)>.listimg{
+    margin-right: 0.75rem;
+}
+
