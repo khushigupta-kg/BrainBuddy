@@ -98,3 +98,73 @@ body{
     margin-right: 0.75rem;
 }
 
+.main {
+    min-height: calc(100vh - 14rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin : 6rem 10rem;
+    margin-bottom : 0; 
+}
+.chats{
+    overflow : hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    width: 100%;
+    max-width: 70rem;
+    height: calc(100vh - 17rem);
+}
+.chat{
+    margin : 1rem;
+    padding: 2rem 3rem;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.chatimg{
+    object-fit: cover;
+    width: 3.5rem;
+    margin-right: 2rem;
+    border-radius: 0.5rem;
+}
+.bot{
+    background-color: #364b72;
+    width: fit-content;
+    border-radius: 0.5rem;
+
+}
+.chatFooter{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.inp {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #364b72;
+    border-radius: 5px;
+    width: 68rem;
+}
+.inp input {
+    width: calc(100% - 30px);
+    outline: none;
+    color: white;
+    padding: 1.25rem;  
+}
+.inp input, .sendBtn {
+    border: none;
+    background-color: transparent;
+}
+.chatFooter p{
+    margin: 2rem 0;
+}
+.txt {
+    line-height: 2.4rem;
+    color: rgba (222,222,222,1);
+}
+
